@@ -1,5 +1,7 @@
 
 
+
+
 # 1 HYPERVÍZOR
 
 Pre prácu na cvičeniach budeme používať Linux. Ak ho už v súčasnosti nepoužívate, ani naň nechcete trvalo prejsť [:)], budete používať virtuálny stroj. Stiahnite a nainštalujte si, napríklad [Virtualbox](https://www.virtualbox.org/wiki/Downloads). Ak preferujete inú aplikáciu, môžete použiť aj tú. Nezabudnite však zvoliť vhodného host-a. 
@@ -78,8 +80,23 @@ sudo apt install ros-galactic-desktop
 Týmto jednoduchým krokom je potrebné nastaviť prostredie. Stačí použiť jediný príkaz
 
 ```shell
-source /opt/ros/galactic/setup.bash
+echo 'source /opt/ros/galactic/setup.bash' >> ~/.bashrc
 ```
+
+Teraz otvorte nový terminál.
 
 # 5 Overenie inštalácie
 
+Pre overenie inštalácie použijem demo príklad komunikácie medzi dvomi nodes. V jednom termináli spustite listenera, ktorý bude počúvať prichádzajúce správy. 
+
+```
+ros2 run demo_nodes_py listener
+```
+
+Tento node zatiaľ nezobrazí žiadny výstup, pretože nie je spustená node, z ktorej by mohol počúvať. Otvorte teda nový terminál a spustite aj talker node
+
+```
+ros2 run demo_nodes_py talker
+```
+
+Ak ste postupovali správne, v tomto momente by ste mali vidieť na výstupe z listenera prijaté správy.
