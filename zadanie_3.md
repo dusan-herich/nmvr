@@ -1,6 +1,6 @@
 # Zadanie 3
 
-Toto zadanie otestuje vaše znalosti z algoritmov hľadania cesty. Vašou úlohou bude rozšírenie druhého zadania tak, aby sa Váš robot vedel samostatne pohybovať a vyhýbať sa prekážkam. Úspešné splnenie všetkých požiadaviek vám zaručí 5 bodov. Riešiť ho môžete do **16.12.2021** kedy ho budete obhajovať a demonštrovať jeho funkčnosť. Zdrojové kódy musia byť odovzdané vo vašom repozitári. Na riešenie úloh môžete použiť akýkoľvek programovací jazyk, avšak ROS2 samotný disponuje knižnicami len pre **Python** a **C++**.
+Toto zadanie otestuje vaše znalosti z algoritmov hľadania cesty. Vašou úlohou bude rozšírenie druhého zadania tak, aby sa Váš robot vedel samostatne pohybovať a vyhýbať sa prekážkam. Úspešné splnenie všetkých požiadaviek vám zaručí 20 bodov. Riešiť ho môžete do **16.12.2021** kedy ho budete obhajovať a demonštrovať jeho funkčnosť. Zdrojové kódy musia byť odovzdané vo vašom repozitári. Na riešenie úloh môžete použiť akýkoľvek programovací jazyk, avšak ROS2 samotný disponuje knižnicami len pre **Python** a **C++**.
 
 
 
